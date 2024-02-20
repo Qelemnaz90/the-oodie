@@ -1,4 +1,5 @@
-body {margin: 0;}
+body { 
+    margin: 0;}
 
 .discount{
     background-color: #92c1e9;
@@ -31,6 +32,13 @@ header {
     align-items: center;
     
 }
+.icon i {
+    padding: 10px;
+    margin-top: 30px;}
+    
+.icon {
+    width: 600px;
+}
 
 .nav-bar li{
     list-style: none;
@@ -58,58 +66,48 @@ header {
 }
 
 .card img {
-    width: 80%;
-margin-left: 30px}
+    width: 410px;
+margin-left: 30px;
+
+}
 
 .card h3{
-    text-align: center;
-}
+    text-align: center;}
 
 
 .card:hover {
-    width: 1550px;
-    height: 910px;
-}
+    width: 500px;
+    height: 910px;}
+
 
 
 .cards {
-
-    width: 85%x;
+    width: 85%;
     height: 900px;
-    transition: ease transform 0.3s;
-}
-footer {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb6jQJ5EolfN4lLrTlzNxFNytZlkfILOqa6A&usqp=CAU"); 
-}
-.s {
-    margin-left: 400px;
     
-}
+ }
 
-.s a {
-    text-decoration: none;}
-.dis {
-    margin-left: 200px;}
-.dis a {
-    text-decoration: none;
-}
+footer {background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb6jQJ5EolfN4lLrTlzNxFNytZlkfILOqa6A&usqp=CAU"); }
+.s {margin-left: 400px;}
+
+.s a {text-decoration: none;}
+.dis {margin-left: 200px;}
+.dis a {text-decoration: none;}
 
 .dis h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 .s h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 .foo {
     display: flex;
     flex-direction: row;}
+
 footer{
-    height: 300px;
-}
+    height: 300px;}
 .txt h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 .ul {list-style-type:none;
 font-size: large;}
@@ -119,3 +117,16 @@ font-size: large;}
 
 .txt p {font-size: larger;}
 .txt h3 {font-size: larger;}
+
+.foto {
+    display: flex;}
+
+.happy h1 {
+    color: cornflowerblue;
+    text-align: center;}
+
+.happy h3{
+    color: darkslateblue;
+    width: 500px;
+    padding-left: 100px;
+    margin-top: 100px;}
