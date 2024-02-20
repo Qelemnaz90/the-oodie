@@ -1,3 +1,5 @@
+body {margin: 0;}
+
 .discount{
     background-color: #92c1e9;
     text-align: center;
@@ -52,7 +54,7 @@ header {
 .cards {
     display: flex;
     justify-content: center;
-   
+
 }
 
 .card img {
@@ -116,4 +118,4 @@ font-size: large;}
 font-size: large;}
 
 .txt p {font-size: larger;}
-.txt. h3 {font-size: larger;}
+.txt h3 {font-size: larger;}
